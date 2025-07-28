@@ -420,6 +420,8 @@ footer {
     .generate-button, .copy-button, .share-button {
         width: 100%;
         max-width: 300px;
+        text-align: center;
+        justify-content: center;
     }
     
     .history-header {

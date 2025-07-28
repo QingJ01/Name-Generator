@@ -422,6 +422,16 @@ footer {
         max-width: 300px;
         text-align: center;
         justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .generate-button .btn-text, .copy-button, .share-button {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     
     .history-header {

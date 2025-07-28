@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旺仔小乔同款起名器 - 饮料英雄名字生成</title>
+    <meta name="description" content="生成独特的饮料+王者荣耀英雄名字组合，生成你的旺仔小乔同款名字！">
+    <meta name="keywords" content="起名器,饮料,王者荣耀,英雄名字,旺仔小乔,名字生成">
+    <meta name="author" content="饮料英雄起名器">
+    
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/png" href="https://bkimg.cdn.bcebos.com/smart/d01373f082025aafa40fb42a23bebc64034f79f0ac8c-bkimg-process,v_1,rw_828,rh_828,maxl_828,pad_1?x-bce-process=image/format,f_auto">
+    <link rel="apple-touch-icon" href="https://bkimg.cdn.bcebos.com/smart/d01373f082025aafa40fb42a23bebc64034f79f0ac8c-bkimg-process,v_1,rw_828,rh_828,maxl_828,pad_1?x-bce-process=image/format,f_auto">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>旺仔小乔同款起名器</h1>
+            <p>生成独特的饮料+王者荣耀英雄名字组合</p>
+        </header>
+        
+        <main>
+            <div class="name-generator">
+                <div class="result-box">
+                    <h2 id="generated-name">点击生成按钮开始</h2>
+                    <p id="name-description">等待生成中...</p>
+                </div>
+                
+                <div id="share-image-container" class="share-image-container" style="display: none;">
+                    <h3>分享图片</h3>
+                    <div class="share-image-wrapper">
+                        <canvas id="share-canvas" width="800" height="400"></canvas>
+                        <div class="share-actions">
+                            <button id="download-image-btn" class="download-image-button">
+                                💾 下载图片
+                            </button>
+                            <button id="copy-image-btn" class="copy-image-button">
+                                📋 复制图片
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="controls">
+                    <button id="generate-btn" class="generate-button">
+                        <span class="btn-text">🎲 生成名字</span>
+                    </button>
+                    
+                    <button id="copy-btn" class="copy-button" style="display: none;">
+                        📋 复制名字
+                    </button>
+                    
+                    <button id="share-btn" class="share-button" style="display: none;">
+                        📤 分享名字
+                    </button>
+                </div>
+                
+                <div class="history">
+                    <div class="history-header">
+                        <h3>生成历史</h3>
+                        <button id="clear-history-btn" class="clear-button" style="display: none;">
+                            🗑️ 清除历史
+                        </button>
+                    </div>
+                    <div id="history-list" class="history-list">
+                        <!-- 历史记录将在这里显示 -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <p class="copyright">© 2025 饮料英雄起名器 - 旺仔小乔同款名字生成</p>
+                <div class="footer-links">
+                    <a href="https://github.com/QingJ01/Name-Generator" target="_blank" class="footer-link">
+                        <span>GitHub</span>
+                    </a>
+                    <span class="footer-divider">|</span>
+                    <a href="https://qm.qq.com/cgi-bin/qm/qr?k=pD9nQAHYV5ab_ajr6DgGYDdhQIGopY4h&jump_from=webapi" target="_blank" class="footer-link">
+                        <span>QQ群</span>
+                    </a>
+                    <span class="footer-divider">|</span>
+                    <a href="https://blog.byebug.cn/" target="_blank" class="footer-link">
+                        <span>Blog</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
